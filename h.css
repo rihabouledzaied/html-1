@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    background-color: rgb(100, 100, 100);
+    border: 15px solid rgb(100, 100, 100);
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: safe;
+    padding: 15px
+
+}
+
+.portfolio {
+    background-color: rgb(27, 58, 116);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-right: 20px;
+}
+
+.portfolio a {
+    text-decoration: none;
+    color: beige;
+}
+
+.h2 {
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.h3 {
+    background-color:rgb(27, 58, 116) ;
+    padding: 100px ;
+    text-align: center;
+
+}
+.text-style1 {
+    font-family: cursive;
+    font-size: 200%;
+    color: darksalmon;
+}
+
+.text-style2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.con1 {
+    display: flex;
+}
+
+.p {
+    border-style: solid;
+    background-color: rgb(27, 58, 116)  ;
+    color:  rgb(27, 58, 116);
+    width: 247px;
+    height: 500px;
+}
+
+.pp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px
+
+}
+
+p {
+    color: beige;
+    font-family: cursive;
+    font-size: 90%;
+}
+.c {
+    color: goldenrod;
+}
+ .c2 {
+     border-style: solid;
+     border-width: thin;
+     border-radius: 5px;
+     border-color: black;
+     font-size: 130%;
+     color: beige;
+     text-decoration: none;
+     
+ }
+
+ .t {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px
+ }
+ 
+tr {
+    height: 500px;
+ }
+th {
+    width: 300px;
+}
+.text-style3 {
+    color: beige;
+    font-family: cursive;
+}
+.text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: goldenrod;
+
+}
+a:link {
+    color: beige;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: goldenrod;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.img {
+    transition: 1s;
+  }
+  
+.img:hover {
+    transform: rotate(360deg);
+  }
+
+legend {
+        width: 70px;
+        padding: 2px;
+        margin-left: calc(50% - 140px - 8px);
+}
